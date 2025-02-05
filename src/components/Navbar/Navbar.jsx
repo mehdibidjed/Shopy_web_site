@@ -98,7 +98,7 @@ function Navbar() {
                 href={data.link}
                 className="px-4 hover:text-primary duration-200"
               >
-                {" "}
+                
                 {data.name}
               </a>
             </li>
@@ -111,10 +111,10 @@ function Navbar() {
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
               </span>
             </a>
-            <div className="absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white p-2 text-black">
+            <div className="absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white p-2 dark:bg-gray-900 text-black">
               <ul>
                 {DropdownLinks.map((data) => (
-                  <li key={data.id} className="hover:bg-primary/20 rounded-lg">
+                  <li key={data.id} className="hover:bg-primary/20 dark:text-white  rounded-lg">
                     <a href={data.link} className="inline-block w-full">
                       {data.name}
                     </a>
