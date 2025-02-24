@@ -28,7 +28,7 @@ function TopProducts() {
     },
   ];
   return (
-    <div>
+    <div className="">
       <div className="container ">
         {/* Header Section */}
         <div className="text-left mb-10 ">

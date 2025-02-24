@@ -6,6 +6,7 @@ import Products from './components/Products/Products'
 import TopProducts from './components/TopProducts/TopProducts'
 import AOS from 'aos'
 import "aos/dist/aos.css";
+import Banner from './components/Banner/Banner'
 function App() {
   useEffect(() => {
     AOS.init({
@@ -17,11 +18,12 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-   <div>
+   <div className='bg-white dark:bg-gray-900'>
     <Navbar/>
     <Hero/>
     <Products/>
     <TopProducts/>
+    <Banner/>
    </div>
   )
 }

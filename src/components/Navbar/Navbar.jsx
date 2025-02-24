@@ -91,7 +91,7 @@ function Navbar() {
       </div>
       {/*lower nav bar */}
       <div className="flex justify-center">
-        <ul className="sm:flex  items-center gap-5">
+        <ul className="sm:flex hidden items-center gap-5">
           {Menu.map((data) => (
             <li key={data.id}>
               <a
