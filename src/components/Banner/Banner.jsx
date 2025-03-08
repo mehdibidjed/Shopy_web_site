@@ -7,12 +7,12 @@ function Banner() {
   return (
     <div className="min-h-[550px] flex justify-center items-center">
       <div className="container">
-        <div className=" grid grid-cols-1 sm:grid-cols-2 gap-5  items-center">
+        <div className=" grid grid-cols-1 md:grid-cols-2 gap-10  items-center">
           <div>
             <img
               src={BannerImg}
               alt=""
-              className="max-w-[400px] max-h-[350px] w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] object-cover "
+              className=" ] w-full  drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] "
             />
           </div>
           <div className=" flex flex-col justify-ceneter gap-5 sm:pt-0">
